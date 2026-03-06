@@ -1,5 +1,5 @@
 header {
-background-color: #6928DE;
+background-color: #9370DB;
 color: black;
 text-align: center;
 padding: 10px;
@@ -13,28 +13,32 @@ padding: 10px;
 }
 
 h2 {
-background-color: #2896DE;
 color: black;
-font-weight: 250;
+font-size: 25px;
+font-weight: 200;
 text-align: center;
 padding: 10px;
-line-height: 2.0;
 }
 
 h3 {
-font-weight: 200;
-padding: 10px;
+color: black;
+font-size: 40px;
+font-weight: bold;
 text-align: center;
-color:black;
+padding: 10px;
 }
 
-figure {
-text-align: center;
-}
 
 #container {
-text-align: center;
+background-color: #F5F5F5;
+color: black;
+display: grid;
+height: auto;
+font-size: 15px;
 font-weight: 200;
+text-align: center;
+padding: 10px;
+line-height: 2.0;
 }
 
 
@@ -44,8 +48,9 @@ font-weight: 200;
 
 #navbar {
 overflow: hidden;
-background-color: grey;
-border-bottom: 1px solid grey;
+background-color: #778899;
+border-bottom: 1px solid #778899;
+padding: 10px;
 }
 
 #navbar a {
@@ -72,43 +77,44 @@ padding: 10px;
 
 figure {
 text-align: center;
+width: auto;
+height: auto;
+}
+
+figcaption {
+text-align: center;
+color: black;
+font-size: 25px;
+font-weight: bold;
+font-style: italic;
+}
+
+img {
+display: block;
+margin: auto;
+text-align: center;
+width: auto;
+height: auto;
 }
 
 footer {
 position: fixed;
 bottom: 0;
-left: 0;
-background-color: grey;
+right: 0;
+background-color: #778899;
 box-sizing: border-box;
 width: 100%;
-height: 10%;
+height: 40px;
 padding: 10px;
 }
 
 footer p {
 color: black;
-font-weight: 1000;
 float: right;
 padding-right: 10px;
 font-style: italic;
-}
-
-#source-pages {
-color: black;
-font-weight: 1000;
-float: left;
-padding-right: 10px;
-font-size: 10px;
-font-style: italic;
-}
-
-#source-pages p {
-color: black;
-font-weight: 1000;
-float: left;
-padding-right: 10px;
-font-size: 10px;
-font-style: italic;
+font-weight: bold;
+transform: translateY(-20px);
 }
 
 footer a {
